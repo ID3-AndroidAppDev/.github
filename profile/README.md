@@ -1,6 +1,9 @@
 # Introduction to Design Track 3 (Android App Development)
 ![Contributors](https://img.shields.io/badge/contributor-PiranitaGomez-pink)![Contributors](https://img.shields.io/badge/contributor-CleberCarvalho-green)
 
+> Design is not just what it looks like and feels like. Design is how it works.
+> -- <cite>Steve Jobs</cite>
+
 # Description
 This repository contains the Android Studio versions of the apps developed in the Introduction to Design Track 3 (ID3) course. ID3 is an introductory Android development course designed for beginners, offered every spring semester to freshmen at Kyoto University of Advanced Science (KUAS), Japan.
 
