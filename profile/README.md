@@ -2,6 +2,7 @@
 ![Contributors](https://img.shields.io/badge/contributor-PiranitaGomez-pink)![Contributors](https://img.shields.io/badge/contributor-CleberCarvalho-green)
 
 > Design is not just what it looks like and feels like. Design is how it works.
+> 
 > -- <cite>Steve Jobs</cite>
 
 # Description
