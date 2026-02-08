@@ -10,6 +10,68 @@ This repository contains the Android Studio versions of the apps developed in th
 
 In the ID3 course, MIT App Inventor serves as the official IDE, providing a visual programming environment for students to create Android apps. This repository hosts the Android Studio refactors of those apps, most of which have been adapted into smartwatch apps to enhance portability and accessibility—pushing the boundaries of app development and enabling seamless, ubiquitous interactions directly on the wrist.
 
+## What you’ll find here
+
+### Android Studio refactors of weekly apps
+These repos contain Android Studio implementations of weekly hands-on tasks from the course:
+
+- **Week 2 — BMI App**
+  - Repo: `ID3_w2BMIApp`
+  - Includes:
+    - `week2_BMIapp` (Android)
+    - `week2_BMI4watch` (Wear OS)
+
+- **Week 3 — Quiz App (Wear OS + Android)**
+  - Repo: `ID3_w3QuizApp`
+  - Includes:
+    - `week3_Quizapp` (Android)
+    - `week3_Quiz4Watch` (Wear OS)
+    - `quizAppWatchDemo` (demo assets)
+
+- **Week 4 — Voice Quiz App**
+  - Repo: `ID3_w4VoiceQuizApp`
+  - (Work-in-progress / minimal scaffolding in the current public version)
+
+### Student final projects
+- `civilian` — final projects from civilian teams  
+- `swat` — final projects from S.W.A.T teams  
+
+### Organization utilities
+- `.github` — org-level GitHub settings (e.g., templates, workflows)
+
+## Getting started
+
+### Prerequisites
+- **Android Studio** (recent stable version recommended)
+- JDK as required by your Android Studio version
+- For Wear OS apps: a **Wear OS emulator** or physical Wear OS device
+
+### Run an app
+1. Clone the repo you want:
+   ```bash
+   git clone https://github.com/ID3-AndroidAppDev/<REPO_NAME>.git
+2. Open it in Android Studio.
+3. Select the appropriate run configuration/module (Android or Wear OS).
+4. Run on an emulator/device.
+
+# Notes on Android Gradle Plugin (AGP) compatibility
+Some repos may use newer AGP versions than older Android Studio installations support. If you see an AGP compatibility error, you have two options:
+* Upgrade Android Studio / Gradle to match the project, or
+* Downgrade the project’s AGP/Kotlin versions (commonly via libs.versions.toml, plus any necessary updates in build.gradle.kts and gradle-wrapper.properties).
+  
+Each repo may include a short note in its README with guidance.
+
+# Contributing
+If you’re a student in the course, feel free to fork the weekly repos and experiment. Keep commits small and meaningful. When submitting improvements, include:
+* a short description of what changed,
+* screenshots (for UI changes),
+* and device/emulator info when relevant.
+
+If you’re an external contributor, issues and PRs are welcome for bug fixes, documentation improvements, and refactoring suggestions.
+
+# License
+Most weekly-app repositories in this organization use the Apache License 2.0, while some student project repositories may use different licenses (e.g., MIT).
+Please check the LICENSE file in each repository for details.
 
 # Miscellaneous
 ### The ID3 Course
