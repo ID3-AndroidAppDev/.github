@@ -13,7 +13,7 @@ In the ID3 course, MIT App Inventor serves as the official IDE, providing a visu
 ## What you’ll find here
 
 ### Android Studio refactors of weekly apps
-These repos contain Android Studio implementations of weekly hands-on tasks from the course:
+These repos contain Android Studio implementations of weekly hands-on tasks from the course (currently week 2-4 only, more coming up soon):
 
 - **Week 2 — BMI App**
   - Repo: `ID3_w2BMIApp`
@@ -33,11 +33,9 @@ These repos contain Android Studio implementations of weekly hands-on tasks from
   - (Work-in-progress / minimal scaffolding in the current public version)
 
 ### Student final projects
-- `civilian` — final projects from civilian teams  
-- `swat` — final projects from S.W.A.T teams  
+- `civilian` — final projects from civilian teams developed using MIT App Inventor
+- `swat` — final projects from S.W.A.T teams developed using Android Studio, Flutter, or Python
 
-### Organization utilities
-- `.github` — org-level GitHub settings (e.g., templates, workflows)
 
 ## Getting started
 
